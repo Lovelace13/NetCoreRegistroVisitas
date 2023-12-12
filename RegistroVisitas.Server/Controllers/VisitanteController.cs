@@ -40,7 +40,7 @@ namespace RegistroVisitas.Server.Controllers
             {
                 return NotFound();
             }
-
+            // comentario para commit de prueba rama developer
             return View(visitante);
         }
 
