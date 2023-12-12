@@ -59,6 +59,7 @@ namespace RegistroVisitas.Server.Controllers
         {
             if (ModelState.IsValid)
             {
+                // cambio para probar merge y cherry pick
                 _context.Add(visitante);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
