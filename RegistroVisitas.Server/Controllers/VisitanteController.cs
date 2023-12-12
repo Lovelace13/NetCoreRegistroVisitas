@@ -70,6 +70,7 @@ namespace RegistroVisitas.Server.Controllers
         // GET: Visitante/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            // cambio para probar merge y cherry pick 2 veces
             if (id == null || _context.Visitantes == null)
             {
                 return NotFound();
